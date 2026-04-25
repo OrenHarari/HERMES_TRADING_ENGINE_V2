@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9 - 2026-04-25
+- Implemented Stage 6A trade memory functions in `hermes.learning.trade_memory` for strict completed-trade validation, JSON append-only persistence, and deterministic memory loading.
+- Replaced placeholder tests with Stage 6A unit coverage for validation errors, JSON file creation/preservation, invalid JSON handling, and deterministic load behavior.
+
 ## 0.1.8 - 2026-04-25
 - Implemented Stage 5D performance reporting in `hermes.backtest.report.generate_performance_report` with deterministic aggregate metrics, drawdown, regime counts, and edge-case handling.
 - Replaced placeholder performance-report test scaffold with Stage 5D unit coverage for mixed/edge cases, metric correctness, regime counts, and deterministic output.
