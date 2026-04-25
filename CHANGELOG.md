@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.5 - 2026-04-25
+- Implemented Stage 5A confidence scoring in `hermes/trading/confidence.py` with fixed regime weights and clamped [0,1] output.
+- Implemented Stage 5A trade eligibility gate in `hermes/trading/eligibility.py` with deterministic block reasons.
+- Added Stage 5A unit tests for confidence range/determinism/sensitivity and eligibility pass/fail/determinism cases.
+
 ## 0.1.4 - 2026-04-25
 - Implemented Stage 4 market intelligence functions in `hermes.market.regime` for deterministic regime classification plus normalized volatility and momentum scoring.
 - Added Stage 4 unit tests for trend/chop/volatility regimes, score bounds, and deterministic output.
