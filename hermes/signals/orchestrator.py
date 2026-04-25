@@ -1,0 +1,1 @@
+"""Signal orchestrator scaffold module."""
