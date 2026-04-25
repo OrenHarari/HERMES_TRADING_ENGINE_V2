@@ -4,6 +4,7 @@
 - Implemented Stage 5A decision confidence scoring in `hermes.decision.confidence.compute_confidence` with weighted regime-aware formula and [0,1] clamping.
 - Implemented Stage 5A trade eligibility gating in `hermes.decision.eligibility.check_trade_allowed` with explicit deterministic block reasons.
 - Replaced Stage 0 placeholder tests with Stage 5A coverage for confidence behavior and trade-eligibility pass/fail conditions.
+- Resolved Stage 5A merge conflicts in changelog and test files while preserving real Stage 5A test coverage.
 
 ## 0.1.4 - 2026-04-25
 - Implemented Stage 4 market intelligence functions in `hermes.market.regime` for deterministic regime classification plus normalized volatility and momentum scoring.
