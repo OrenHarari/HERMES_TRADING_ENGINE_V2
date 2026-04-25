@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6 - 2026-04-25
+- Implemented Stage 5B basic risk guardrails in `hermes.risk.guardrails.check_risk_limits` with deterministic block ordering and explicit reasons.
+- Replaced placeholder risk tests with Stage 5B coverage for allowed flow, each blocking condition, and deterministic output.
+
 ## 0.1.5 - 2026-04-25
 - Implemented Stage 5A decision confidence scoring in `hermes.decision.confidence.compute_confidence` with weighted regime-aware formula and [0,1] clamping.
 - Implemented Stage 5A trade eligibility gating in `hermes.decision.eligibility.check_trade_allowed` with explicit deterministic block reasons.
