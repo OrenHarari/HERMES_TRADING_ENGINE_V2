@@ -1,0 +1,1 @@
+"""Defaults scaffold module."""

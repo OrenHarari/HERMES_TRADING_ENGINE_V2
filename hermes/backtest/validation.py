@@ -1,0 +1,1 @@
+"""Backtest validation scaffold module."""

@@ -1,0 +1,1 @@
+"""Signal normalization scaffold module."""
