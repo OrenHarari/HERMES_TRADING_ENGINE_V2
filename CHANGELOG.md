@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4 - 2026-04-25
+- Implemented Stage 4 market intelligence functions in `hermes.market.regime` for deterministic regime classification plus normalized volatility and momentum scoring.
+- Added Stage 4 unit tests for trend/chop/volatility regimes, score bounds, and deterministic output.
+
 ## 0.1.3 - 2026-04-25
 - Implemented Stage 3 quality gate tests using AST-only scanning for banned `pandas`/`numpy` imports and `.values` usage.
 - Added tests for repository pass state, each banned pattern, and excluded-directory behavior.
