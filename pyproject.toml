@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-trading-engine-v2"
+version = "0.1.0"
+description = "Initial scaffold for HERMES v2 research and backtesting engine"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "HERMES Team" }
+]
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["hermes*"]

@@ -1,0 +1,1 @@
+"""Decision eligibility scaffold module."""

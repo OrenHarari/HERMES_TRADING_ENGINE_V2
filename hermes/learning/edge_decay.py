@@ -1,0 +1,1 @@
+"""Edge decay scaffold module."""
