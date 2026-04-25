@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.8 - 2026-04-25
+- Implemented Stage 5D performance reporting in `hermes.backtest.report.generate_performance_report` with deterministic aggregate metrics, drawdown, regime counts, and edge-case handling.
+- Replaced placeholder performance-report test scaffold with Stage 5D unit coverage for mixed/edge cases, metric correctness, regime counts, and deterministic output.
+
 ## 0.1.7 - 2026-04-25
 - Implemented Stage 5C backtest validation gate in `hermes.backtest.validation.validate_backtest` with deterministic fail-fast reason ordering.
 - Replaced placeholder backtest validation tests with Stage 5C coverage for pass/fail reasons and deterministic output.
