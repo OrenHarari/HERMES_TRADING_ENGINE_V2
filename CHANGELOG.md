@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3 - 2026-04-25
+- Implemented Stage 3 quality gate tests using AST-only scanning for banned `pandas`/`numpy` imports and `.values` usage.
+- Added tests for repository pass state, each banned pattern, and excluded-directory behavior.
+
 ## 0.1.2 - 2026-04-25
 - Implemented Stage 2 signal orchestrator in `orchestrate_signals`, using Stage 1 normalization output and strict strong/medium/weak labeling thresholds.
 - Added Stage 2 unit tests for strong/medium/weak outcomes, deterministic behavior, value-driven labels, and normalization error propagation.
