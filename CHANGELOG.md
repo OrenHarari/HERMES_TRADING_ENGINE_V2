@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.7 - 2026-04-25
+- Implemented Stage 5C backtest validation gate in `hermes.backtest.validation.validate_backtest` with deterministic fail-fast reason ordering.
+- Replaced placeholder backtest validation tests with Stage 5C coverage for pass/fail reasons and deterministic output.
+
 ## 0.1.6 - 2026-04-25
 - Implemented Stage 5B basic risk guardrails in `hermes.risk.guardrails.check_risk_limits` with deterministic block ordering and explicit reasons.
 - Replaced placeholder risk tests with Stage 5B coverage for allowed flow, each blocking condition, and deterministic output.
