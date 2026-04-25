@@ -1,13 +1,12 @@
 # HERMES Trading Engine v2
 
-Initial scaffold for the HERMES v2 research/backtesting engine.
+Repository scaffold for a deterministic research/backtesting engine.
 
-## Status
+## Current Stage
 
-This repository currently contains:
-- Package/module skeletons
-- Documentation placeholders
-- Test placeholders
-- Project metadata
+Stage 0 scaffold only:
+- documentation placeholders
+- package skeleton
+- placeholder tests
 
-No trading logic has been implemented yet.
+No trading logic is implemented in this stage.

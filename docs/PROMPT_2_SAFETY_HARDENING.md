@@ -1,3 +1,3 @@
 # Prompt 2: Safety Hardening
 
-Scaffold placeholder. Safety hardening implementation plan intentionally deferred.
+Scaffold placeholder. Not implemented in Stage 0.

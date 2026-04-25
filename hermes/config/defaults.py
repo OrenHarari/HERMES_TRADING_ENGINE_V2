@@ -1,1 +1,1 @@
-"""Default configuration scaffold module."""
+"""Default config scaffold module."""
